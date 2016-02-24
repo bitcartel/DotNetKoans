@@ -47,7 +47,7 @@ namespace DotNetKoans.CSharp
             //...it means we can't do this: array1[2] = 13;
             Assert.Throws(typeof(FillMeIn), delegate() { array1[2] = 13; });
 
-            //This is because the array is fixed at length 1. You could write a function
+            //This is because the array is fixed at length 2. You could write a function
             //which created a new array bigger than the last, copied the elements over, and
             //returned the new array. Or you could use a container, which we'll see later.
         }
